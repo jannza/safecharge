@@ -53,7 +53,7 @@ class StatusCallback extends AbstractResponse
 
     public function getCurrency()
     {
-        return $this->data['Currency'];
+        return $this->data['currency'];
     }
 
     public function getTimestamp()
