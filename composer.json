@@ -1,25 +1,25 @@
 {
-    "name": "jannza/skrill",
+    "name": "jannza/safecharge",
     "type": "library",
-    "description": "Skrill driver for the Omnipay payment processing library",
+    "description": "safecharge driver for the Omnipay payment processing library",
     "keywords": [
+        "safecharge",
         "gateway",
         "merchant",
-        "skrill",
         "omnipay",
         "pay",
         "payment"
     ],
-    "homepage": "https://github.com/jannza/skrill",
+    "homepage": "https://github.com/jannza/safecharge",
     "license": "MIT",
     "authors": [
         {
             "name": "jannza",
-            "homepage": "https://github.com/jannza/skrill/contributors"
+            "homepage": "https://github.com/jannza/safecharge/contributors"
         }
     ],
     "autoload": {
-        "psr-4": { "Omnipay\\Skrill\\" : "src/" }
+        "psr-4": { "Omnipay\\Safecharge\\" : "src/" }
     },
     "require": {
         "omnipay/common": "~2.0"
